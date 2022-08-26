@@ -1,0 +1,30 @@
+:root {
+  --primary: #2e2c25;
+  --secondary: #bfc89e;
+  --tertiary: #4a5650;
+  --light: #ffffff;
+  --dark: #010108;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background: var(--light);
+  color: var(--dark);
+}
+
+div {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.todo-list {
+  list-style-type: none;
+}

@@ -8,12 +8,22 @@
     <title>Todo</title>
   </head>
   <body>
-    <div id="header">
-        <h1 id="todo-title">Get to work!</h1>
-        <input id="todo-input" placeholder="new todo item"></input>
-        <button id="todo-submit" type="button">Submit</button><br>
-    </div>
-    <ul id="todo-list"></ul>
+    <main class="app">
+      <div class="header">
+        <h1 class="title">Get to work!</h1>
+      </div>
+      <div class="input">
+        <input type="text" id="newTodo" placeholder="new todo item" />
+        <input type="submit" id="addTodo" value="Submit" />
+      </div>
+      <div class="todo">
+        <ul id="toDoList">
+          <li class="todo-item">test 1</li>
+          <li class="todo-item">test 2</li>
+          <li class="todo-item">test 3</li>
+        </ul>
+      </div>
+    </main>
     <script src="function.js"></script>
   </body>
 </html>
