@@ -9,19 +9,15 @@
   </head>
   <body>
     <main class="app">
-      <div class="header">
+      <div class="todo-header">
         <h1 class="title">Get to work!</h1>
       </div>
-      <div class="input">
-        <input type="text" id="newTodo" placeholder="new todo item" />
-        <input type="submit" id="addTodo" value="Submit" />
+      <div class="todo-input">
+        <input type="text" id="todo-text" placeholder="new todo item" />
+        <input type="submit" id="todo-button" value="Submit" />
       </div>
-      <div class="todo">
-        <ul id="toDoList">
-          <li class="todo-item">test 1</li>
-          <li class="todo-item">test 2</li>
-          <li class="todo-item">test 3</li>
-        </ul>
+      <div class="todo-section">
+        <ul id="todo-list"></ul>
       </div>
     </main>
     <script src="function.js"></script>
