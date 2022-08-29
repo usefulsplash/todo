@@ -1,7 +1,5 @@
 # todo
 
----
-
 A simple todo app in HTML, CSS, and JavaScript.
 
 ![Image of App](/assets/images/todoapp.png "Todo App")
